@@ -4,7 +4,7 @@ from sklearn.datasets import make_classification
 from sklearn.svm import SVC
 
 # Generating synthetic dataset
-X, y = make_classification(n_samples=10000, n_features=2, n_informative=2, n_redundant=0, random_state=42)
+X, y = make_classification(n_samples=40000, n_features=2, n_informative=2, n_redundant=0, random_state=42)
 
 # Creating and training the SVM model
 svm_model = SVC(kernel='linear', C=1.0, random_state=42)

@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 X, y = make_classification(n_samples=10000, n_features=2, n_informative=2, n_redundant=0, random_state=42)
 
 # Creating and training the Random Forest model
-rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+rf_model = RandomForestClassifier(n_estimators=300, random_state=42)
 rf_model.fit(X, y)
 
 # Define plot boundaries
