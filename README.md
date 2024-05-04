@@ -1,2 +1,3 @@
 # AlgorithmVisualizations
+
 Visualizing Algorithms! 
